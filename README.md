@@ -6,9 +6,18 @@
 # Установка зависимостей
 npm i
 
-# Запуск сборки:
+# Запуск компиляции:
 npm run build
 
 # Запуск тестов: 
-npm run test
+npm run test 
+```
+
+Для проверки примера из задания нужно запустить соответствующий js-файл:
+```shell script
+# selfInProxy
+node src/selfInProxy/example.js
+
+# mySet
+node src/mySet/example.js
 ```
